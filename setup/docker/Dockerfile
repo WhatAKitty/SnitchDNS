@@ -87,6 +87,6 @@ RUN a2ensite snitch.conf
 
 VOLUME $DATA_PATH
 
-EXPOSE 80 443 2024
+EXPOSE 80 443 8888 2024
 
 CMD ["/bin/bash", "setup/docker/entrypoint.sh"]
