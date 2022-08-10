@@ -5,7 +5,7 @@ ARG DEBIAN_FRONTEND=noninteractive
 ARG INSTALL_PATH=/opt/snitchdns
 ARG DATA_PATH=$INSTALL_PATH/data
 ARG CONFIG_PATH=$DATA_PATH/config
-ARG REPO=https://github.com/ctxis/SnitchDNS
+ARG REPO=https://github.com/WhatAKitty/SnitchDNS
 
 # Configuration.
 ARG SNITCHDNS_DBMS=sqlite
